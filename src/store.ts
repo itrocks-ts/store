@@ -12,7 +12,7 @@ const depends: Dependencies = {
 	toStoreName: targetName => targetName
 }
 
-export function setStoreDependencies(dependencies: Partial<Dependencies>)
+export function storeDependsOn(dependencies: Partial<Dependencies>)
 {
 	Object.assign(depends, dependencies)
 }
