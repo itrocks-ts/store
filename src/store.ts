@@ -17,7 +17,6 @@ export function storeDependsOn(dependencies: Partial<Dependencies>)
 	Object.assign(depends, dependencies)
 }
 
-export default Store
 export function Store(name: string | false = '')
 {
 	return decorateCallback(STORE, function(target) {
