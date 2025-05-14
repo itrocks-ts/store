@@ -10,7 +10,7 @@
 	"description": "Marks domain classes for named storage, associates transformers to properties of these class types",
 	"devDependencies": {
 		"@types/node": "^22.10",
-		"typescript": "~5.6"
+		"typescript": "~5.8"
 	},
 	"engines": {
 		"node": ">=18"
@@ -43,5 +43,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/store.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
