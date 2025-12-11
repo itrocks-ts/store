@@ -28,7 +28,13 @@
 	"homepage": "https://it.rocks",
 	"keywords": [
 		"backend",
+		"decorator",
+		"domain",
+		"domain-based",
+		"entity",
 		"it.rocks",
+		"orm",
+		"persistence",
 		"store"
 	],
 	"license": "ISC",
@@ -43,5 +49,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/store.d.ts",
-	"version": "0.0.9"
+	"version": "0.0.10"
 }
